@@ -1,0 +1,32 @@
+task,min_start_time,max_start_time,min_duration,max_duration,profession,min_prob,max_prob
+Stay Home,0,0,7,8,Service,1,1
+Stay Home,0,0,6,7,Driver,1,1
+Stay Home,0,0,7,8,Doctor,1,1
+Go to Work,7,8,1,2,Service,0.4,1
+Go to Work,6,7,1,1,Driver,0.4,1
+Go to Work,7,8,1,2,Doctor,0.8,1
+Work,8,10,8,9,Service,0.4,1
+Treat Patients,7,8,8,12,Driver,0.4,1
+Treat Patients,8,9,8,10,Doctor,0.8,1
+Returns Home,16,19,1,2,Service,0.4,1
+Returns Home,15,20,1,1,Driver,0.4,1
+Returns Home,16,19,1,2,Doctor,0.8,1
+Stay Home,17,21,10,10,Service,1,1
+Stay Home,16,21,10,10,Driver,1,1
+Stay Home,17,21,10,10,Doctor,1,1
+Attend Event,12,14,2,4,Service,0.3,0.9
+Attend Event,12,14,2,4,Driver,0.3,0.6
+Attend Event,12,14,2,3,Doctor,0.3,0.7
+Stay Home,0,0,12,13,Unemployed,1,1
+Stay Hospital,0,0,24,24,Hospitalized,1,1
+Stay Home,0,0,7,8,Student,1,1
+Go to Work,7,8,1,1,Student,0.4,1
+Work,8,9,6,7,Student,0.4,1
+Returns Home,14,16,1,1,Student,0.4,1
+Stay Home,15,17,10,10,Student,1,1
+Attend Event,12,14,2,4,Student,0.4,0.9
+Go to Work,12,13,1,1,Unemployed,0.3,0.55
+Attend Event,13,14,2,4,Unemployed,0.35,0.6
+Returns Home,15,18,1,1,Unemployed,0.3,0.55
+Stay Home,16,17,10,10,Unemployed,1,1
+Stay Home,0,0,24,24,NoOutingAllowed,1,1

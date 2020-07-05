@@ -1,0 +1,32 @@
+action,min_time_gap,max_time_gap,min_prob_affect,max_prob_affect,task,min_prob,max_prob,min_effect_others,max_effect_others,min_effect_self,max_effect_self
+Sneeze,40,50,0.1,0.7,Work,0.1,0.605,0.1,0.705,0,0
+Contaminate Thing,50,55,0.1,0.7,Work,0.1,0.605,0.1,0.705,0,0
+Physical Contact,20,30,0.1,0.7,Work,0.1,0.605,0.1,0.705,0,0
+Sneeze,40,50,0.1,0.7,Attend Event,0.1,0.65,0.1,0.8,0,0
+Contaminate Thing,20,30,0.1,0.8,Attend Event,0.1,0.8,0.1,0.8,0,0
+Physical Contact,20,30,0.2,0.8,Attend Event,0.2,0.8,0.3,0.8,0,0
+Sneeze,40,50,0.1,0.7,Go to Work,0.1,0.7,0.1,0.705,0,0
+Contaminate Thing,20,30,0.1,0.7,Go to Work,0.1,0.7,0.1,0.705,0,0
+Physical Contact,20,30,0.1,0.7,Go to Work,0.1,0.7,0.1,0.705,0,0
+Sneeze,40,50,0.1,0.7,Returns Home,0.1,0.7,0.1,0.705,0,0
+Contaminate Thing,20,30,0.1,0.7,Returns Home,0.1,0.7,0.1,0.705,0,0
+Physical Contact,20,30,0.1,0.7,Returns Home,0.1,0.7,0.1,0.705,0,0
+Sneeze,40,50,0.1,0.7,Stay Hospital,0.1,0.7,0.1,0.705,0,0
+Contaminate Thing,50,55,0.1,0.8,Stay Hospital,0.1,0.8,0.1,0.705,0,0
+Physical Contact,20,30,0.1,0.8,Stay Hospital,0.1,0.8,0.1,0.705,0,0
+Physical Contact,20,30,0.1,0.8,Treat Patients,0.1,0.8,0.1,0.705,0,0
+Sleep,1000,1000,0,0,Stay Home,1,1,0,0,0,0
+Wash Hands,30,40,0.5,1,Work,0.1,0.7,0,0,-0.75,-0.1
+Wash Hands,30,40,0.5,1,Stay Home,0.2,0.7,0,0,-0.75,-0.1
+Wash Hands,30,40,0.4,1,Attend Event,0.1,0.7,0,0,-0.75,-0.1
+Wash Hands,20,40,0.4,1,Treat Patients,0.2,0.7,0,0,-0.75,-0.1
+Got Caught in Sneeze,5,30,0.3,0.7,Work,0,0,0,0,0,0
+Got Caught in Sneeze,5,30,0.3,0.7,Attend Event,0,0,0,0,0,0
+Got Caught in Sneeze,5,30,0.3,0.7,Returns Home,0,0,0,0,0,0
+Got Caught in Sneeze,5,30,0.3,0.7,Go to Work,0,0,0,0,0,0
+Touch Contaminate Thing,5,30,0.3,0.7,Work,0,0,0,0,0,0
+Touch Contaminate Thing,5,30,0.3,0.7,Attend Event,0,0,0,0,0,0
+Touch Contaminate Thing,5,30,0.3,0.7,Returns Home,0,0,0,0,0,0
+Touch Contaminate Thing,5,30,0.3,0.7,Go to Work,0,0,0,0,0,0
+Contaminate Thing,50,55,0.1,0.7,Treat Patients,0.1,0.605,0.1,0.705,0,0
+Sneeze,40,50,0.1,0.7,Treat Patients,0.1,0.605,0.1,0.705,0,0

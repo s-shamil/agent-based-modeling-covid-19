@@ -1,0 +1,16 @@
+name,value
+min_age,1
+max_age,77
+min_name_length,3
+max_name_length,7
+min_family_size,1
+max_family_size,5
+n_workgroup,4000
+n_transport,1000
+transport_seat_limit,40
+n_events,335
+n_persons,33619
+n_infected_init,2
+awareness_start,1
+quarantine_start,1
+quarantined_person_ratio,0.4

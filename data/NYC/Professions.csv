@@ -1,0 +1,5 @@
+name,min_age,max_age,percentage
+Student,4,25,0.22
+Service,18,62,0.741
+Doctor,25,70,0.019
+Unemployed,10,81,0.02
